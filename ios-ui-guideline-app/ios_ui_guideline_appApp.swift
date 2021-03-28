@@ -11,7 +11,7 @@ import SwiftUI
 struct ios_ui_guideline_appApp: App {
     var body: some Scene {
         WindowGroup {
-            ColorView()
+            TabBar()
         }
     }
 }
