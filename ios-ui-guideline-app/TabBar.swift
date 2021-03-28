@@ -9,7 +9,22 @@ import SwiftUI
 
 struct TabBar: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        TabView(selection: /*@START_MENU_TOKEN@*//*@PLACEHOLDER=Selection@*/.constant(1)/*@END_MENU_TOKEN@*/) {
+            ColorView().tabItem {
+                Image(systemName: "eyedropper.halffull")
+                Text("Color")
+            }
+            .tag(1)
+            TypographyView().tabItem {
+                Image(systemName: "textformat")
+                Text("Typography")
+            }.tag(2)
+            MaterialView().tabItem {
+                Image(systemName: "square.2.stack.3d.top.fill")
+                Text("Material")
+            }.tag(3)
+        }
+
     }
 }
 
