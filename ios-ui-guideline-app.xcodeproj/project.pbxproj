@@ -11,6 +11,7 @@
 		052162782610F8C60005F564 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 052162772610F8C60005F564 /* ContentView.swift */; };
 		0521627A2610F8C60005F564 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 052162792610F8C60005F564 /* Assets.xcassets */; };
 		0521627D2610F8C60005F564 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0521627C2610F8C60005F564 /* Preview Assets.xcassets */; };
+		052162872610FE890005F564 /* TabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 052162862610FE890005F564 /* TabBar.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +21,7 @@
 		052162792610F8C60005F564 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0521627C2610F8C60005F564 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		0521627E2610F8C60005F564 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		052162862610FE890005F564 /* TabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBar.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 			children = (
 				052162752610F8C60005F564 /* ios_ui_guideline_appApp.swift */,
 				052162772610F8C60005F564 /* ContentView.swift */,
+				052162862610FE890005F564 /* TabBar.swift */,
 				052162792610F8C60005F564 /* Assets.xcassets */,
 				0521627E2610F8C60005F564 /* Info.plist */,
 				0521627B2610F8C60005F564 /* Preview Content */,
@@ -138,6 +141,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				052162872610FE890005F564 /* TabBar.swift in Sources */,
 				052162782610F8C60005F564 /* ContentView.swift in Sources */,
 				052162762610F8C60005F564 /* ios_ui_guideline_appApp.swift in Sources */,
 			);
