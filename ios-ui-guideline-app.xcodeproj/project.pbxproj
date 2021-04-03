@@ -14,6 +14,9 @@
 		052162872610FE890005F564 /* TabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 052162862610FE890005F564 /* TabBar.swift */; };
 		0521628A261102DD0005F564 /* TypographyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05216289261102DD0005F564 /* TypographyView.swift */; };
 		0521628D261102FA0005F564 /* MaterialView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0521628C261102FA0005F564 /* MaterialView.swift */; };
+		059A215E2614F45800CE6DCA /* ColorRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 059A215D2614F45800CE6DCA /* ColorRow.swift */; };
+		059A21632614F90700CE6DCA /* colorData.json in Resources */ = {isa = PBXBuildFile; fileRef = 059A21622614F90700CE6DCA /* colorData.json */; };
+		059A21672614FCAA00CE6DCA /* ModelData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 059A21662614FCAA00CE6DCA /* ModelData.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +29,9 @@
 		052162862610FE890005F564 /* TabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBar.swift; sourceTree = "<group>"; };
 		05216289261102DD0005F564 /* TypographyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TypographyView.swift; sourceTree = "<group>"; };
 		0521628C261102FA0005F564 /* MaterialView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaterialView.swift; sourceTree = "<group>"; };
+		059A215D2614F45800CE6DCA /* ColorRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorRow.swift; sourceTree = "<group>"; };
+		059A21622614F90700CE6DCA /* colorData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = colorData.json; sourceTree = "<group>"; };
+		059A21662614FCAA00CE6DCA /* ModelData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelData.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,11 +64,11 @@
 		052162742610F8C60005F564 /* ios-ui-guideline-app */ = {
 			isa = PBXGroup;
 			children = (
+				059A21652614FC7800CE6DCA /* Model */,
 				052162752610F8C60005F564 /* ios_ui_guideline_appApp.swift */,
-				052162772610F8C60005F564 /* ColorView.swift */,
-				05216289261102DD0005F564 /* TypographyView.swift */,
-				0521628C261102FA0005F564 /* MaterialView.swift */,
 				052162862610FE890005F564 /* TabBar.swift */,
+				059A215B2614F3D600CE6DCA /* View */,
+				059A21602614F86300CE6DCA /* Resources */,
 				052162792610F8C60005F564 /* Assets.xcassets */,
 				0521627E2610F8C60005F564 /* Info.plist */,
 				0521627B2610F8C60005F564 /* Preview Content */,
@@ -76,6 +82,33 @@
 				0521627C2610F8C60005F564 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		059A215B2614F3D600CE6DCA /* View */ = {
+			isa = PBXGroup;
+			children = (
+				052162772610F8C60005F564 /* ColorView.swift */,
+				05216289261102DD0005F564 /* TypographyView.swift */,
+				0521628C261102FA0005F564 /* MaterialView.swift */,
+				059A215D2614F45800CE6DCA /* ColorRow.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		059A21602614F86300CE6DCA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				059A21622614F90700CE6DCA /* colorData.json */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		059A21652614FC7800CE6DCA /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				059A21662614FCAA00CE6DCA /* ModelData.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -136,6 +169,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0521627D2610F8C60005F564 /* Preview Assets.xcassets in Resources */,
+				059A21632614F90700CE6DCA /* colorData.json in Resources */,
 				0521627A2610F8C60005F564 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -147,11 +181,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				059A215E2614F45800CE6DCA /* ColorRow.swift in Sources */,
 				052162872610FE890005F564 /* TabBar.swift in Sources */,
 				0521628D261102FA0005F564 /* MaterialView.swift in Sources */,
 				0521628A261102DD0005F564 /* TypographyView.swift in Sources */,
 				052162782610F8C60005F564 /* ColorView.swift in Sources */,
 				052162762610F8C60005F564 /* ios_ui_guideline_appApp.swift in Sources */,
+				059A21672614FCAA00CE6DCA /* ModelData.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

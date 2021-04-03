@@ -9,9 +9,9 @@ import SwiftUI
 
 struct ColorView: View {
     var body: some View {
-       
-            Text("Color View")
-                .padding()
+        List {
+            ColorRow()
+        }
       
     }
 }

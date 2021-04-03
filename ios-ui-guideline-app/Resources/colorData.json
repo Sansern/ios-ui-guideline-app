@@ -1,0 +1,34 @@
+[
+    {
+        "name": "SystemRed",
+        "id": 1,
+        "rgbColorLight": {
+            "r": 255,
+            "g": 59,
+            "b": 48
+            },
+        "rgbColorDark": {
+            "r": 255,
+            "g": 69,
+            "b": 58
+            },
+        "hexColorLight" : "#FF3B30",
+        "hexColorDark" : "#FF453A"
+    },
+    {
+        "name": "SystemOrange",
+        "id": 2,
+        "rgbColorLight": {
+            "r": 255,
+            "g": 149,
+            "b": 0
+            },
+        "rgbColorDark": {
+            "r": 255,
+            "g": 159,
+            "b": 10
+            },
+        "hexColorLight" : "#FF9500",
+        "hexColorDark" : "#FF9F0A"
+    }
+]
