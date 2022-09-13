@@ -10,7 +10,7 @@ import SwiftUI
 struct ColorView: View {
     var body: some View {
         List {
-            ColorRow()
+           
         }
       
     }

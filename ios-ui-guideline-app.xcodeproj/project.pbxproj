@@ -14,7 +14,6 @@
 		052162872610FE890005F564 /* TabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 052162862610FE890005F564 /* TabBar.swift */; };
 		0521628A261102DD0005F564 /* TypographyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05216289261102DD0005F564 /* TypographyView.swift */; };
 		0521628D261102FA0005F564 /* MaterialView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0521628C261102FA0005F564 /* MaterialView.swift */; };
-		059A215E2614F45800CE6DCA /* ColorRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 059A215D2614F45800CE6DCA /* ColorRow.swift */; };
 		059A21632614F90700CE6DCA /* colorData.json in Resources */ = {isa = PBXBuildFile; fileRef = 059A21622614F90700CE6DCA /* colorData.json */; };
 		059A21672614FCAA00CE6DCA /* ModelData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 059A21662614FCAA00CE6DCA /* ModelData.swift */; };
 /* End PBXBuildFile section */
@@ -29,7 +28,6 @@
 		052162862610FE890005F564 /* TabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBar.swift; sourceTree = "<group>"; };
 		05216289261102DD0005F564 /* TypographyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TypographyView.swift; sourceTree = "<group>"; };
 		0521628C261102FA0005F564 /* MaterialView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaterialView.swift; sourceTree = "<group>"; };
-		059A215D2614F45800CE6DCA /* ColorRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorRow.swift; sourceTree = "<group>"; };
 		059A21622614F90700CE6DCA /* colorData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = colorData.json; sourceTree = "<group>"; };
 		059A21662614FCAA00CE6DCA /* ModelData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelData.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -90,7 +88,6 @@
 				052162772610F8C60005F564 /* ColorView.swift */,
 				05216289261102DD0005F564 /* TypographyView.swift */,
 				0521628C261102FA0005F564 /* MaterialView.swift */,
-				059A215D2614F45800CE6DCA /* ColorRow.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -181,7 +178,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				059A215E2614F45800CE6DCA /* ColorRow.swift in Sources */,
 				052162872610FE890005F564 /* TabBar.swift in Sources */,
 				0521628D261102FA0005F564 /* MaterialView.swift in Sources */,
 				0521628A261102DD0005F564 /* TypographyView.swift in Sources */,
